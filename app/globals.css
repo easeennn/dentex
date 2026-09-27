@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dentex-deep: #006263;
+  --dentex-dark: #004e50;
+  --dentex-teal: #087f80;
+  --dentex-aqua: #21a9a5;
+  --dentex-light: #ddf5f2;
+  --dentex-mint: #f1fbf9;
+  --dentex-white: #ffffff;
+  --dentex-offwhite: #f7faf9;
+  --dentex-text: #163637;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  color: var(--dentex-text);
+  background: var(--dentex-white);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--dentex-teal);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--dentex-deep);
+  color: var(--dentex-white);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1rem 1.9rem;
+  border-radius: 2px;
+  transition: background-color 0.35s ease, transform 0.35s ease;
+}
+.btn-primary:hover {
+  background: var(--dentex-dark);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--dentex-deep);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1rem 0.25rem;
+  border-bottom: 1px solid rgba(0, 98, 99, 0.25);
+  transition: border-color 0.35s ease, color 0.35s ease;
+}
+.btn-secondary:hover {
+  border-color: var(--dentex-deep);
+}
+
+.link-underline {
+  position: relative;
+  display: inline-block;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+.link-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+::selection {
+  background: var(--dentex-light);
+  color: var(--dentex-dark);
+}
