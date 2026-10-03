@@ -45,7 +45,7 @@ export default function FinalCTA() {
             {finalCta.primaryCta}
           </a>
           <a
-            href="mailto:hello@dentex.example"
+            href="mailto:hello@mzsdental.example"
             className="inline-flex items-center gap-2 border-b border-white/30 py-4 text-[12px] font-semibold uppercase tracking-widest2 text-white transition-colors hover:border-white"
           >
             {finalCta.secondaryCta}

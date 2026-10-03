@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <span className="font-display text-[15px] font-bold tracking-[0.08em] text-ink">
-              DENTEX
+              M&Z's Dental Clinic
             </span>
             <p className="mt-3 max-w-xs text-sm text-ink/55">{footer.statement}</p>
           </div>
