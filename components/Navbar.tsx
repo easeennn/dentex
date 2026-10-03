@@ -753,7 +753,7 @@ export default function Navbar() {
             */}
 
             <span
-              className={`font-display text-[15px] font-bold tracking-[0.14em] transition-colors duration-500 ${
+              className={`font-display text-[16px] font-bold tracking-[0.14em] transition-colors duration-500 ${
                 dark ? "text-white" : "text-ink"
               }`}
             >
