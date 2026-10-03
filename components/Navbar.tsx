@@ -730,8 +730,8 @@ export default function Navbar() {
                 If the file has its own transparent margins, trim those in the
                 asset itself rather than compensating here. */}
             <Image
-              src="/logo.jpg"
-              alt="Dentex logo"
+              src="/logo.png"
+              alt="M&Z's Dental Clinic logo"
               width={140}
               height={36}
               priority
@@ -757,7 +757,7 @@ export default function Navbar() {
                 dark ? "text-white" : "text-ink"
               }`}
             >
-              DENTEX
+              M&Z's Dental Clinic
             </span>
           </a>
 
@@ -779,7 +779,7 @@ export default function Navbar() {
           </nav>
 
           <a
-            href="#contact"
+            href="/contact"
             className="hidden items-center gap-2 rounded-full bg-teal px-6 py-3 text-[11px] font-semibold uppercase tracking-widest2 text-white transition-colors duration-300 hover:bg-dark lg:inline-flex"
           >
             Book Appointment
@@ -816,7 +816,7 @@ export default function Navbar() {
           >
             <div className="flex items-center justify-between px-6 py-5">
               <span className="font-display text-[15px] font-bold tracking-[0.14em] text-white">
-                DENTEX
+                M&Z'z Dental Clinic
               </span>
               <button
                 aria-label="Close menu"

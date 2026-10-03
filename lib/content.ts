@@ -18,7 +18,7 @@ export const nav = {
 };
 
 export const hero = {
-  eyebrow: "Dentex Dental Care",
+  eyebrow: "M&Z's Dental Clinic",
   headlineLines: ["Your smile.", "Your confidence."],
   subhead:
     "Modern dentistry focused on healthy smiles, natural results, and care you can trust.",
