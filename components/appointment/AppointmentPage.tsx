@@ -27,7 +27,7 @@ export function AppointmentPage() {
         <div className="mx-auto max-w-[1240px] px-5 sm:px-8 lg:px-10">
           <motion.header {...reveal()} className="max-w-2xl">
             <p className="text-xs font-medium uppercase tracking-[0.22em] text-[#0B6B72]">
-              DENTEX Appointment
+              Appointment
             </p>
             <h1 className="mt-4 text-4xl font-medium leading-[1.05] tracking-[-0.025em] text-[#0E2A2D] sm:text-5xl">
               Book Your Appointment

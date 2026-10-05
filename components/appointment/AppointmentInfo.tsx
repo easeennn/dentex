@@ -29,7 +29,7 @@ export function AppointmentInfo() {
     <>
       <PhoneIcon />
       <span>
-        <span className="block text-[15px] font-medium text-[#0E2A2D]">Call DENTEX</span>
+        <span className="block text-[15px] font-medium text-[#0E2A2D]">Call DENTAL</span>
         <span className="mt-0.5 block text-sm text-[#0E2A2D]/65">{CLINIC_PHONE.display}</span>
       </span>
     </>

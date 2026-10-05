@@ -11,14 +11,14 @@ export const nav = {
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
-    { label: "Why M&Z's", href: "#why-mz's" },
+    { label: "Why Us", href: "#why-mz's" },
     { label: "Contact", href: "#contact" },
   ],
   cta: "Book Appointment",
 };
 
 export const hero = {
-  eyebrow: "M&Z's Dental Clinic",
+  eyebrow: "Dental Point",
   headlineLines: ["Your smile.", "Your confidence."],
   subhead:
     "Modern dentistry focused on healthy smiles, natural results, and care you can trust.",
@@ -39,10 +39,10 @@ export const trustStrip = [
 ];
 
 export const about = {
-  eyebrow: "About M&Z's Dental Clinic",
+  eyebrow: "About Dental Point Clinic",
   heading: ["Dentistry built", "around your confidence."],
-  body: "At M&Z's Dental Clinic, modern dental care goes beyond treatment. We combine clinical precision, advanced technology, and thoughtful care to help every patient feel confident in their smile.",
-  cta: "Discover M&Z's Dental Clinic",
+  body: "At Dental Point Clinic, modern dental care goes beyond treatment. We combine clinical precision, advanced technology, and thoughtful care to help every patient feel confident in their smile.",
+  cta: "Discover Dental Clinic",
   image: {
     src: "/teeth.jpg",
     alt: "Bright, calm dental treatment room",
@@ -96,7 +96,7 @@ export const services = [
 
 export const signature = {
   image: {
-    src: "/doc.jpg",
+    src: "/doc.png",
     alt: "Close, editorial portrait — quiet, confident expression",
   },
   lines: ["Natural results.", "Thoughtful care.", "Confidence that lasts."],
@@ -184,7 +184,7 @@ export const finalCta = {
   heading: ["Ready to feel", "confident in your smile?"],
   body: "Take the first step toward healthier, more confident dental care.",
   primaryCta: "Book an Appointment",
-  secondaryCta: "Contact M&Z's Dental Clinic",
+  secondaryCta: "Contact Dental Point Clinic",
 };
 
 // PLACEHOLDER — replace with the client's real details before launch.
@@ -199,7 +199,7 @@ export const footer = {
   contact: {
     address: "Address placeholder — to be confirmed with client",
     phone: "+880 00 0000 0000",
-    email: "hello@mzsdental.example",
+    email: "hello@dentalpoint.example",
   },
   hours: [
     { day: "Sat – Thu", time: "10:00 AM – 8:00 PM" },

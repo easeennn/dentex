@@ -15,9 +15,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "M&Z'z Dental Clinic — Confidence Starts With Your Smile",
+  title: " Dental Clinic — Confidence Starts With Your Smile",
   description:
-    "M&Z'z Dental Clinic is a modern dental practice focused on precise treatment, calm care, and confident, natural smiles.",
+    "Dental Point Clinic is a modern dental practice focused on precise treatment, calm care, and confident, natural smiles.",
 };
 
 export default function RootLayout({

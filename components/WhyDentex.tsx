@@ -9,7 +9,7 @@ export default function WhyDentex() {
       <div className="mx-auto max-w-content px-6 lg:px-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <p className="eyebrow">Why Dentex</p>
+            <p className="eyebrow">Dental point</p>
             <h2 className="mt-5 font-display font-bold leading-[1.05] text-ink text-[clamp(2rem,4vw,3rem)]">
               A practice built on four principles.
             </h2>
